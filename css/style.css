@@ -1,0 +1,22 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   /* font-family: Arial, sans-serif; */
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   z-index: 0;
+}
+
+body {
+   /* background-image: url('img/background-img.png'); */
+   background-color: #fff5d7;
+   background-size: cover;
+   /* Membuat gambar menutupi seluruh elemen */
+   background-position: center;
+   /* Menempatkan gambar di tengah */
+   background-repeat: no-repeat;
+   /* Menghindari pengulangan gambar */
+   height: 100vh;
+   /* Mengatur tinggi body agar sesuai dengan viewport */
+   scroll-behavior: smooth;
+}
